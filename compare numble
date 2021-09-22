@@ -17,3 +17,14 @@ int main()
 	max = Max(num1, num2);
 	printf("max= %d\n", max);
 	return 0;
+
+
+{
+	int a = 10;
+	int arr[] = { 1, 2, 3, 4, 5, 6 };// 4*6=24
+	printf("%d\n", sizeof(a));//4
+	printf("%d\n", sizeof(int));//4
+	printf("%d\n", sizeof a);//4
+	printf("%d\n", sizeof(arr));//计算数组大小，单位是字节
+
+}
